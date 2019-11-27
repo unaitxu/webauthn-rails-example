@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  user_id: 
+  public_key: 
+  sign_count: 1
+
+two:
+  username: MyString
+  user_id: 
+  public_key: 
+  sign_count: 1
