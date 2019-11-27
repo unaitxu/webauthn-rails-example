@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  font-size: 1em;
+  margin-bottom: .5em;
+  display: block;
+}
+
+input[type="text"] {
+  width: 100%;
+  display: block;
+  margin-bottom: 1em;
+  border: 1px solid #444;
+  box-shadow: none;
+  padding: 6px 4px;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid #444;
+  font-weight: normal;
+  box-shadow: none;
+}
+
+form {
+  width: 100%;
+  max-width: 320px;
+}
+
+div#information {
+  padding: 1em 0;
+}
