@@ -1,0 +1,9 @@
+<h1>Login</h1>
+
+<%= form_with scope: :login, id: "login-form" do |form| %>
+  <%= form.label :username, "Enter your username:" %>
+  <%= form.text_field :username, required: true, id: "username-field", autocomplete: 'off' %>
+  <%= form.submit "Login" %>
+<% end %>
+
+<div id="information"></div>
