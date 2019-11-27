@@ -1,0 +1,9 @@
+<h1>Register</h1>
+
+<%= form_with scope: :registration, id: "registration-form" do |form| %>
+  <%= form.label :username, "Enter a username:" %>
+  <%= form.text_field :username, required: true, id: "username-field", autocomplete: 'off' %>
+  <%= form.submit "Register" %>
+<% end %>
+
+<div id="information"></div>

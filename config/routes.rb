@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get '/register/new', to: 'registrations#new'
+
+  post '/register/prepare', to: 'registrations#prepare'
+  post '/register', to: 'registrations#create'
 end
