@@ -1,4 +1,4 @@
 WebAuthn.configure do |config|
-  config.origin = "http://localhost:3000"
+  config.origin = "https://webuthunai.herokuapp.com"
   config.rp_name = "Webauthn Example SE"
 end
